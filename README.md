@@ -1,7 +1,7 @@
 # jwt-boot-auth
 secure spring-boot APIs with JWT
 
-#### 请求hello接口，会收到403错误
+#### 请求hello接口，由于没有登录，会收到403错误
 curl http://localhost:8080/hello
 
 #### 注册一个新用户
